@@ -44,7 +44,7 @@ const logger = winston.createLogger({
   transports: [new winston.transports.Console()],
 });
 
-class BlackWukongAPIClient {
+class BWC {
   constructor() {
     this.headers = {
       Accept: "*/*",
@@ -377,7 +377,7 @@ class BlackWukongAPIClient {
   }
 }
 
-const client = new BlackWukongAPIClient();
+const client = new BWC();
 client.main().catch((err) => {
   client.log(err.message, "error");
   process.exit(1);
