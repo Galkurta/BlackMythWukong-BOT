@@ -32,8 +32,7 @@ This project is an automated API client for the Black Myth Wukong game. The clie
 ## Usage
 
 1. Account registration:
-   Before using this client, you need to register a BlackMythWukong account. Use the following link to sign up:
-   [https://t.me/bwcwukong_bot/Play?startapp=6944804952](https://t.me/bwcwukong_bot/Play?startapp=6944804952)
+   Before using this client, you need to register a [BlackMythWukong](https://t.me/bwcwukong_bot/Play?startapp=6944804952)
 
 2. Set up the `data.txt` file:
    Edit `data.txt` file in the project's root directory. Each line should contain account data in the following format:
