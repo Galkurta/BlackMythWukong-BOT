@@ -102,7 +102,7 @@ class BWC {
   }
 
   async login(userData) {
-    const url = "https://api-blackwukong.lucky-mines.com/v1/user/login";
+    const url = "https://api-blackwukong.lucky-mines.com/v1/user/login-tg";
     const payload = {
       tid: userData.id,
       parent_tid: userData.parent_tid,
